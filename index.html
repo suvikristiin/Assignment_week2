@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form id="forms" action="">
+      <label for="input-username">username:</label><br />
+      <input type="text" id="input-username" /><br />
+      <label for="input-email">email:</label><br />
+      <input type="text" id="input-email" /><br />
+      <label for="input-address">address:</label><br />
+      <input type="text" id="input-address" /><br />
+      <label for="input-admin">admin:</label><br />
+      <input type="checkbox" id="input-admin" /><br />
+      <label for="input-image">image:</label><br />
+      <input type="file" id="input-image" accept="image/*" /><br />
+      <input type="button" id="submit-data" value="Submit" />
+    </form>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Admin</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <td>Webmaster</td>
+          <td>example.@email.com</td>
+          <td>Demoland 123</td>
+          <td>X</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>User123</td>
+          <td>example.@email.com</td>
+          <td>Userplace 321</td>
+          <td>-</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>AnotherUser222</td>
+          <td>example.@email.com</td>
+          <td>AnotherPlace 21</td>
+          <td>-</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="empty-table">Empty table</button>
+    <script src="src/index.js"></script>
+  </body>
+</html>
